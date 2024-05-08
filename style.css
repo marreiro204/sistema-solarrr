@@ -1,0 +1,484 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+body {
+
+    background-image: url(https://i.pinimg.com/originals/1a/7d/cc/1a7dcc374628bc21f6ef890463a77eae.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    /* background-size: cover; */
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+
+}
+
+
+#visitors {
+
+    position: absolute;
+    margin-right: 3333.3333px;
+    margin-bottom: 666.666px;
+    opacity: 0%;
+
+}
+
+
+#visitors:hover {
+
+    opacity: 100%;
+
+}
+
+
+#sol2 {
+    width: 240px;
+    height: 240px;
+    background-color: #ff6600;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 10.14px 10.14px 235px 132.5px orange;
+    margin-right: 5px;
+    z-index: -1;
+   
+}
+
+#nave {
+    z-index: +1;
+    position: absolute;
+    animation: ir 14.14s 0s linear infinite;
+}
+
+
+#baleia {
+    position: absolute;
+    z-index: -1;
+    animation: mexe 80s linear infinite;
+}
+
+
+#baleia>img {
+
+    opacity: 50%;
+}
+
+
+
+
+
+#Sol>img {
+
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 10px;
+
+
+
+}
+
+
+
+#Netuno {
+
+    position: absolute;
+    height: 1470px;
+    width: 1470px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Netuno img {
+
+    height: 45px;
+    width: 45px;
+    animation: rot 46s linear infinite;
+
+}
+
+
+#Urano {
+
+    position: absolute;
+    height: 1300px;
+    width: 1300px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Urano img {
+
+    height: 80px;
+    width: 80px;
+    animation: rot2 31s linear infinite;
+
+}
+
+#Saturno {
+
+    position: absolute;
+    height: 1150px;
+    width: 1150px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Saturno img {
+
+    height: 90px;
+    width: 120px;
+    animation: rot3 23s linear infinite;
+
+}
+
+#Jupiter {
+
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Jupiter img {
+
+    height: 90px;
+    width: 90px;
+    animation: rot4 16.5s linear infinite;
+
+}
+
+#Marte {
+
+    position: absolute;
+    height: 850px;
+    width: 850px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Marte img {
+
+    height: 60px;
+    width: 60px;
+    animation: rot5 12.6s linear infinite;
+
+}
+
+#Terra {
+
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Terra img {
+
+    height: 50px;
+    width: 70px;
+    animation: rot6 11.5s linear infinite;
+
+}
+
+
+#Venus {
+
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Venus img {
+
+    height: 63.5px;
+    width: 63.5px;
+    animation: rot7 10s linear infinite;
+
+}
+
+#Mercurio {
+
+    position: absolute;
+    height: 525px;
+    width: 525px;
+    border: 1px solid white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#Mercurio img {
+
+    height: 30px;
+    width: 50px;
+    animation: rot8 8.5s linear infinite;
+
+}
+
+#constelação{
+    position: absolute;
+    right: 700px;
+    top: 350px;  
+    transform: scaleX(-1);
+    animation: twinkle 3s infinite alternate;
+       
+}
+
+
+
+@keyframes twinkle {
+    0% { opacity: 1; }
+    50% { opacity: 0.2; }
+    100% { opacity: 1; }
+  }
+
+
+@keyframes rot {
+
+    from {
+
+        transform: rotate(0deg) translate(735px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(735px) rotate(0deg);
+    }
+
+}
+
+
+@keyframes rot2 {
+
+    from {
+
+        transform: rotate(0deg) translate(650px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(650px) rotate(0deg);
+    }
+
+}
+
+@keyframes rot3 {
+
+    from {
+
+        transform: rotate(0deg) translate(575px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(575px) rotate(0deg);
+    }
+
+}
+
+
+@keyframes rot4 {
+
+    from {
+
+        transform: rotate(0deg) translate(500px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(500px) rotate(0deg);
+    }
+
+}
+
+
+@keyframes rot5 {
+
+    from {
+
+        transform: rotate(0deg) translate(425px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(425px) rotate(0deg);
+    }
+
+}
+
+@keyframes rot6 {
+
+    from {
+
+        transform: rotate(0deg) translate(375px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(375px) rotate(0deg);
+    }
+
+}
+
+@keyframes rot7 {
+
+    from {
+
+        transform: rotate(0deg) translate(315px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(315px) rotate(0deg);
+    }
+
+}
+
+@keyframes rot8 {
+
+    from {
+
+        transform: rotate(0deg) translate(260px) rotate(0deg);
+    }
+
+    to {
+
+        transform: rotate(360deg) translate(260px) rotate(0deg);
+    }
+
+}
+
+@keyframes mexe {
+
+    to {
+        right: -50%;
+
+    }
+
+    25% {
+
+        transform: scale(2);
+    }
+
+    from {
+
+        right: 150%;
+    }
+}
+
+
+@keyframes ir {
+
+    to {
+        right: 0%;
+        transform: scale(0);
+
+    }
+
+    25% {
+
+        transform: scale(10);
+    }
+
+    from {
+
+        right: 750%;
+        transform: scale(4);
+        ;
+    }
+}
+    #buraco-negro{
+        position: relative;
+        left: 1500px;
+        overflow: hidden;
+        border-radius: 50%;
+        background-color: rgb(0, 0, 0);
+        animation: girar 3s linear infinite;
+       
+    }
+
+    @keyframes girar{
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+   
+
+    .info {
+        position: fixed ;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-family: Arial, sans-serif;
+        writing-mode: vertical-rl;
+        
+      
+      }
+     
